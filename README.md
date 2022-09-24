@@ -1,11 +1,13 @@
 #Konfigurasi Framework HROS-1
 
 ##AutoLogin User Ubuntu
+
 sudo gedit /usr/share/lightdm/lightdm.conf.d/60-lightdm-gtk-greeter.conf
 
 autologin-user= $username  
 
 ##Instalasi Remote Desktop Server
+
 https://skjoldtech.wordpress.com/2020/02/28/how-to-install-x11vnc-server-on-linux-mint-19-with-autostart-on-boot/
 
 ##Instalasi Environtment
@@ -26,9 +28,11 @@ sudo apt-get install g++ manpages-dev libjpeg62-dev libncurses5-dev git
 
 
 ##Clone Framework Darwin Op
+
 https://github.com/darwinop-ens/darwin-op
 
 ##Clone Framework HROS1
+
 https://github.com/Interbotix/HROS1-Framework
 
 --- Program change
